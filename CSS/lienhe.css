@@ -1,0 +1,41 @@
+body{
+    background-color: #f3f3f3;
+}
+.giuatrang{
+    width: 80%;
+    margin: 0 auto;
+    padding: 4%;
+    background-color: white ;
+}
+.giuatrang>p{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+   padding-bottom: 30px;
+
+}
+input[type=text] {
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    outline:none;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:hover{
+    box-shadow: 0 0 5px rgb(60, 253, 1);
+}
+.b102{
+    font-variant: small-caps;
+    background-color: white;
+    
+}
+form input[type="text"]:focus{
+  width:100%;
+  
+}
+textarea{
+    width: 100%;
+}
+textarea:hover{
+    box-shadow: 0 0 7px rgb(60, 253, 1);
+}

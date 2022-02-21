@@ -1,0 +1,57 @@
+.b102{
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    padding: 10px;
+    list-style: none;
+    background-color: white;
+    font-family: 'Montserrat';
+}
+.tieu{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 2px gray;
+    font-family: 'Montserrat';
+}
+.form-group{
+    margin: 10px 0;
+    font-family: 'Montserrat';
+}
+.form-control{
+    width: 98%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-family: 'Montserrat';
+}
+.form-group label{
+    font-family: 'Montserrat';
+
+}
+.form-control:focus{
+    background-color: yellow;
+    box-shadow: 0 0 3px red;
+    border: 1px solid yellow;
+    font-family: 'Montserrat';
+}
+.form-button{
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: orangered;
+    box-shadow: inset 0 0 20px blue;
+    font-family: 'Montserrat';
+}
+.form-button:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px orangered;
+}
+.form-button:disabled{
+    color: darkgrey;
+    box-shadow: inset 0 0 20px gray;
+}

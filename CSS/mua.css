@@ -1,0 +1,80 @@
+Nav{
+    background-color: #f3f3f3;
+}
+
+.t1{
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    box-shadow: 0 0 5px black;
+    background-color: white;
+    
+}
+.t2{
+    float: left;
+    width: 60%;
+    padding: 0.5%;
+}
+.t2>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5% 5% 5% 5%;
+    border: 1px solid pink;
+}
+.h11{
+    width: 30%;
+    height: 50%;
+}
+.t3{
+    float: left;
+    width: 40%;
+}
+.t3>p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-variant: small-caps;
+    padding-top: 2% ;
+}
+.t31{
+    text-align: center;
+}
+.h1>label{
+    padding: 7px;
+}
+select{
+    padding: 2px;
+}
+.hh{
+    text-align: center;
+    padding: 5px;
+}
+.hh>p{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: pink;
+}
+.hh>a>.hh1{
+    width: 5%;
+    border: 1px solid pink;
+    border-radius: 40% 40% 40% 40%;
+}
+.hh>a>.hh1:hover{
+    border: 1px solid black;
+}
+.t1::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.p1>p{
+    color: gray;
+    font-size: larger;
+    text-align: justify;
+}
+h1{
+    font-size: larger;
+    color: pink;
+    border-bottom: 1px solid pink;
+}
