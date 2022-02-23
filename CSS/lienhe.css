@@ -1,16 +1,17 @@
 body{
     background-color: #f3f3f3;
+    background-image:url(../APicture/br1.jpg) ;
+    background-size: 100% 100%;
 }
 .giuatrang{
     width: 80%;
     margin: 0 auto;
     padding: 4%;
-    background-color: white ;
+   background-color: #1f852b;
 }
 .giuatrang>p{
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
-    color: gray;
    padding-bottom: 30px;
 
 }
@@ -25,9 +26,8 @@ input[type=text]:hover{
     box-shadow: 0 0 5px rgb(60, 253, 1);
 }
 .b102{
-    font-variant: small-caps;
-    background-color: white;
-    
+    font-variant: small-caps; 
+    background-color: #1f852b;
 }
 form input[type="text"]:focus{
   width:100%;

@@ -1,3 +1,4 @@
+
 .b102{
     width: 60%;
     margin: 0 auto;
@@ -7,6 +8,7 @@
     list-style: none;
     background-color: white;
     font-family: 'Montserrat';
+    background-image: url(../APicture/brr.jpg);
 }
 .tieu{
     text-align: center;
